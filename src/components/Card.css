@@ -1,0 +1,23 @@
+.card {
+    display: block;
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    /* border-color: black; */
+    background-color: rgb(209, 107, 107);
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #e74c3c, #c0392b);
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}

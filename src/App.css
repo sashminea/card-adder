@@ -1,0 +1,22 @@
+.addButton {
+  background-color: rgb(104, 240, 70);
+  color: white;
+  padding: 10px;
+  width: 40px;
+  border-radius: 10px;
+  font-weight: 600;
+  border-style: hidden;
+  font-family: 'Arial';
+
+  position: absolute;
+  right: 1vh;
+}
+
+.addButton:hover {
+  cursor: pointer;
+  background-color: rgb(94, 216, 63);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.815);
+}
